@@ -1,0 +1,79 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.2i
+//  \   \         Application : ISE
+//  /   /         Filename : simu.ant
+// /___/   /\     Timestamp : Mon May 14 16:15:16 2018
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: simu
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module simu;
+    reg A = 1'b0;
+    wire [6:0] Salidas;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 0;
+
+    initial    // Clock process for A
+    begin
+        #OFFSET;
+        forever
+        begin
+            A = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) A = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    Practica10 UUT (
+        .A(A),
+        .Salidas(Salidas));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock A
+        #0;
+        ANNOTATE_Salidas;
+        #OFFSET;
+        forever begin
+            #115;
+            ANNOTATE_Salidas;
+            #85;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Users\\Familia\\Dropbox\\Escuela Ram\\Ingenieria\\6to semestre\\Diseno Digital Moderno\\Laboratorio\\Practica10_cyberse\\simu.ano");
+        #10200 // Final time:  10200 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+    end
+
+    task ANNOTATE_Salidas;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,Salidas,%b]", $time, Salidas);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

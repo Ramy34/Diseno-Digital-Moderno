@@ -1,0 +1,3 @@
+MODULE practica1
+SUBMODULE PracCompu
+INSTANCE UUT

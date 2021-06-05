@@ -1,0 +1,25 @@
+ command line:
+   ./practica1_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50468
+
+Sun May 20 09:51:01 2018
+
+Total Line Count = 167
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 110.174 Meg. 
+
+ Total signals 44
+ Total nets 17
+ Total signal drivers 12
+ Total blocks 17
+ Total primitive blocks 15
+ Total processes 16
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

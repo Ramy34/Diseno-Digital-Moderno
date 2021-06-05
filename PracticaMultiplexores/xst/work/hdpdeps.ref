@@ -1,0 +1,17 @@
+V3 6
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Mux21.vhd" 2018/04/28.16:58:34 I.31
+EN work/Mux21 1524952739 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Mux21.vhd" \
+      PB ieee/std_logic_1164 1147274808 PB ieee/std_logic_arith 1147274810 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147274814
+AR work/Mux21/Behavioral 1524952740 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Mux21.vhd" \
+      EN work/Mux21 1524952739
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Mux81.vhd" 2018/04/28.16:56:42 I.31
+EN work/Mux81 1524953007 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Mux81.vhd" \
+      PB ieee/std_logic_1164 1147274808 PB ieee/std_logic_arith 1147274810 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147274814
+AR work/Mux81/Behavioral 1524953008 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Mux81.vhd" \
+      EN work/Mux81 1524953007

@@ -1,0 +1,35 @@
+Release 8.2i ngdbuild I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\bin\nt\ngdbuild.exe -ise
+C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital
+Moderno/Laboratorio/Practica11_cyberse/Practica11_cyberse.ise -intstyle ise -dd
+_ngo -nt timestamp -uc practica11.ucf -p xc3s200-ft256-5 practica11.ngc
+practica11.ngd
+
+Reading NGO file 'C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to
+semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/practica11.ngc'
+...
+
+Applying constraints in "practica11.ucf" to the design...
+
+Checking timing specifications ...
+Checking Partitions ...
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 159684 kilobytes
+
+Writing NGD file "practica11.ngd" ...
+
+Writing NGDBUILD log file "practica11.bld"...

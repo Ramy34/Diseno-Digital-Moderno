@@ -1,0 +1,4 @@
+--Verilog project file split out from PR6_beh.prj
+verilog work "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica6\Practica6/practica6.vf"
+verilog work "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica6\Practica6/PR6.tfw"
+verilog work "C:/Xilinx/verilog/src/glbl.v"

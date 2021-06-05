@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3215" delta="new" >Unit <arg fmt="%s" index="1">work/prac3</arg> is now defined in a different file: was <arg fmt="%s" index="2">C:/Users/Alumno/DDM/prac3/prac3.vhd</arg>, now is <arg fmt="%s" index="3">G:/Laboratorio Diseno Digital/prac3/prac3.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="new" >Unit <arg fmt="%s" index="1">work/prac3/Behavioral</arg> is now defined in a different file: was <arg fmt="%s" index="2">C:/Users/Alumno/DDM/prac3/prac3.vhd</arg>, now is <arg fmt="%s" index="3">G:/Laboratorio Diseno Digital/prac3/prac3.vhd</arg>
+</msg>
+
+</messages>

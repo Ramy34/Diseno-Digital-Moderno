@@ -1,0 +1,5 @@
+# begin LFP file C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica10_cyberse\Practica10.lfp
+designfile Practica10.v
+parttype xc3s200-5-ft256
+bus_delimiter 1;
+set_busdelim_onsave 1;

@@ -1,0 +1,5 @@
+vhdl work "../Practica7/Pract7.vhd"
+vhdl work "flipflop.vhd"
+verilog work "Practica10.vf"
+verilog work "simu1.tfw"
+verilog work "C:/Xilinx/verilog/src/glbl.v"

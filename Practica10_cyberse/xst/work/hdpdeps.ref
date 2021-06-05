@@ -1,0 +1,17 @@
+V3 6
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Divisor.vhd" 2018/05/21.16:24:50 I.31
+EN work/Divisor 1526938673 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Divisor.vhd" \
+      PB ieee/std_logic_1164 1147274808 PB ieee/std_logic_arith 1147274810 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147274814
+AR work/Divisor/Behavioral 1526938674 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Divisor.vhd" \
+      EN work/Divisor 1526938673
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Pract7.vhd" 2018/04/22.11:40:45 I.31
+EN work/Pract7 1526938671 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Pract7.vhd" \
+      PB ieee/std_logic_1164 1147274808 PB ieee/std_logic_arith 1147274810 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147274814
+AR work/Pract7/Behavioral 1526938672 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Pract7.vhd" \
+      EN work/Pract7 1526938671

@@ -1,0 +1,8 @@
+EN fa NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/fa.vhd" sub00/vhpl00 1523309024
+EN ha NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/ha.vhd" sub00/vhpl02 1523309026
+MO Multiplicacion NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica6\Practica6/Multiplicacion.tfw" vlg71/_multiplicacion.bin 1526845884
+AR ha behavioral "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/ha.vhd" sub00/vhpl03 1523309027
+MO practica6 NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica6\Practica6/practica6.vf" vlg21/practica6.bin 1526838146
+AR fa behavioral "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/fa.vhd" sub00/vhpl01 1523309025
+MO PR6 NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica6\Practica6/PR6.tfw" vlg20/_p_r6.bin 1526845701
+MO glbl NULL C:/Xilinx/verilog/src/glbl.v vlg2D/glbl.bin 1523309022

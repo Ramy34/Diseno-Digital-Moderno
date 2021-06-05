@@ -1,0 +1,3 @@
+sch2verilog -intstyle ise -family aspartan3   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/practica6.sch" practica6.vf
+sch2verilog -intstyle ise -family aspartan3   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/practica6.sch" practica6.vf
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/practica6.sch" practica6.vf

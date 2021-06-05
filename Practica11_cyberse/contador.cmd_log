@@ -1,0 +1,1 @@
+xst -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Practica11_cyberse.ise" -intstyle ise -ifn contador.xst -ofn contador.syr

@@ -1,0 +1,6 @@
+[Inputs]
+Sel
+=Datos[1:0]=
+[Outputs]
+Y
+[BiDir]

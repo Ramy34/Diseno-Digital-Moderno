@@ -1,0 +1,5 @@
+MODULE practica11
+	SUBMODULE contador
+		INSTANCE XLXI_1
+	SUBMODULE Divisor
+		INSTANCE XLXI_2

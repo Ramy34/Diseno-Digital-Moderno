@@ -1,0 +1,24 @@
+xst -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -ifn prac3.xst -ofn prac3.syr
+ngdbuild -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "prac3.ngc" prac3.ngd
+ngdbuild -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "prac3.ucf" -p xc3s200-ft256-5 "prac3.ngc" prac3.ngd
+map -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o prac3_map.ncd prac3.ngd prac3.pcf
+par -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -w -intstyle ise -ol std -t 1 prac3_map.ncd prac3.ncd prac3.pcf
+trce -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -e 3 -l 3 -s 5 -xml prac3 prac3.ncd -o prac3.twr prac3.pcf -ucf prac3.ucf
+bitgen -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -f prac3.ut prac3.ncd
+ngdbuild -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "prac3.ucf" -p xc3s200-ft256-5 "prac3.ngc" prac3.ngd
+map -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o prac3_map.ncd prac3.ngd prac3.pcf
+par -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -w -intstyle ise -ol std -t 1 prac3_map.ncd prac3.ncd prac3.pcf
+trce -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -e 3 -l 3 -s 5 -xml prac3 prac3.ncd -o prac3.twr prac3.pcf -ucf prac3.ucf
+bitgen -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -f prac3.ut prac3.ncd
+xst -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -ifn prac3.xst -ofn prac3.syr
+ngdbuild -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "prac3.ucf" -p xc3s200-ft256-5 "prac3.ngc" prac3.ngd
+map -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o prac3_map.ncd prac3.ngd prac3.pcf
+par -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -w -intstyle ise -ol std -t 1 prac3_map.ncd prac3.ncd prac3.pcf
+trce -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -e 3 -l 3 -s 5 -xml prac3 prac3.ncd -o prac3.twr prac3.pcf -ucf prac3.ucf
+bitgen -ise "C:/Users/Alumno/DDM/prac3/prac3.ise" -intstyle ise -f prac3.ut prac3.ncd
+xst -ise "G:/Laboratorio Diseno Digital/prac3/prac3.ise" -intstyle ise -ifn prac3.xst -ofn prac3.syr
+ngdbuild -ise "G:/Laboratorio Diseno Digital/prac3/prac3.ise" -intstyle ise -dd _ngo -nt timestamp -uc "prac3.ucf" -p xc3s200-ft256-5 "prac3.ngc" prac3.ngd
+map -ise "G:/Laboratorio Diseno Digital/prac3/prac3.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o prac3_map.ncd prac3.ngd prac3.pcf
+par -ise "G:/Laboratorio Diseno Digital/prac3/prac3.ise" -w -intstyle ise -ol std -t 1 prac3_map.ncd prac3.ncd prac3.pcf
+trce -ise "G:/Laboratorio Diseno Digital/prac3/prac3.ise" -intstyle ise -e 3 -l 3 -s 5 -xml prac3 prac3.ncd -o prac3.twr prac3.pcf -ucf prac3.ucf
+bitgen -ise "G:/Laboratorio Diseno Digital/prac3/prac3.ise" -intstyle ise -f prac3.ut prac3.ncd

@@ -1,0 +1,9 @@
+AR flipflop behavioral "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica10_cyberse/flipflop.vhd" sub00/vhpl01 1526271392
+AR pract7 behavioral "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica10_cyberse/../Practica7/Pract7.vhd" sub00/vhpl03 1526332367
+MO simu NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica10_cyberse/simu.tfw" vlg7E/simu.bin 1526332592
+MO FD_MXILINX_Practica10 NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica10_cyberse/Practica10.vf" vlg41/_f_d___m_x_i_l_i_n_x___practica10.bin 1526335198
+EN pract7 NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica10_cyberse/../Practica7/Pract7.vhd" sub00/vhpl02 1526332366
+MO Practica10 NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica10_cyberse/Practica10.vf" vlg1C/_practica10.bin 1526335198
+EN flipflop NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica10_cyberse/flipflop.vhd" sub00/vhpl00 1526271391
+MO glbl NULL C:/Xilinx/verilog/src/glbl.v vlg2D/glbl.bin 1526332317
+MO simu1 NULL "C:\Users\Familia\Dropbox\Escuela Ram\Ingenieria\6to semestre\Diseno Digital Moderno\Laboratorio\Practica10_cyberse/simu1.tfw" vlg27/simu1.bin 1526332317

@@ -1,0 +1,3 @@
+MODULE prac3sim
+SUBMODULE prac3
+INSTANCE UUT

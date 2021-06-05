@@ -1,0 +1,14 @@
+V3 7
+FL "G:/Laboratorio Diseno Digital/prac3/prac3.vhd" 2018/03/05.03:26:32 I.31
+EN work/prac3 1520632830           FL "G:/Laboratorio Diseno Digital/prac3/prac3.vhd" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857
+AR work/prac3/Behavioral 1520632831 FL "G:/Laboratorio Diseno Digital/prac3/prac3.vhd" \
+      EN work/prac3 1520632830
+FL "G:/Laboratorio Diseno Digital/prac3/prac312.vhw" 2018/03/05.03:29:54 I.31
+EN work/prac312 1520633026         FL "G:/Laboratorio Diseno Digital/prac3/prac312.vhw" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857 PB ieee/STD_LOGIC_TEXTIO 1147840859 \
+      PB std/textio 1147840824
+AR work/prac312/testbench_arch 1520633027 FL "G:/Laboratorio Diseno Digital/prac3/prac312.vhw" \
+      EN work/prac312 1520633026 CP prac3  PB ieee/STD_LOGIC_TEXTIO 1147840859

@@ -1,0 +1,3 @@
+MODULE simulatzion
+SUBMODULE PracCompu
+INSTANCE UUT

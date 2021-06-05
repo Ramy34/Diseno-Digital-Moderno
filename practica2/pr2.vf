@@ -1,0 +1,80 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.2i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : pr2.vf
+// /___/   /\     Timestamp : 05/20/2018 10:10:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\bin\nt\sch2verilog.exe -intstyle ise -family spartan3 -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica2/pr2.sch" pr2.vf
+//Design Name: pr2
+//Device: spartan3
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module pr2(a, 
+           b, 
+           c, 
+           d, 
+           x1, 
+           X2);
+
+    input a;
+    input b;
+    input c;
+    input d;
+   output x1;
+   output X2;
+   
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_39;
+   wire XLXN_47;
+   wire XLXN_48;
+   wire XLXN_49;
+   wire XLXN_50;
+   wire XLXN_53;
+   wire XLXN_61;
+   wire XLXN_64;
+   
+   AND2 XLXI_2 (.I0(c), 
+                .I1(XLXN_64), 
+                .O(X2));
+   AND2 XLXI_13 (.I0(XLXN_61), 
+                 .I1(a), 
+                 .O(XLXN_47));
+   AND2 XLXI_14 (.I0(XLXN_34), 
+                 .I1(XLXN_33), 
+                 .O(XLXN_49));
+   INV XLXI_15 (.I(a), 
+                .O(XLXN_33));
+   INV XLXI_17 (.I(b), 
+                .O(XLXN_34));
+   OR2 XLXI_18 (.I0(c), 
+                .I1(b), 
+                .O(XLXN_39));
+   AND2 XLXI_19 (.I0(d), 
+                 .I1(XLXN_39), 
+                 .O(XLXN_48));
+   AND2 XLXI_20 (.I0(XLXN_48), 
+                 .I1(XLXN_47), 
+                 .O(XLXN_50));
+   OR2 XLXI_21 (.I0(XLXN_50), 
+                .I1(XLXN_49), 
+                .O(XLXN_53));
+   AND2 XLXI_22 (.I0(XLXN_53), 
+                 .I1(c), 
+                 .O(x1));
+   INV XLXI_24 (.I(b), 
+                .O(XLXN_61));
+   INV XLXI_26 (.I(b), 
+                .O(XLXN_64));
+endmodule

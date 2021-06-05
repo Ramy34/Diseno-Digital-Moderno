@@ -1,0 +1,3 @@
+vhdl work "../Practica9_Cyberse/Divisor.vhd"
+vhdl work "../Practica7/Pract7.vhd"
+verilog work "Practica10.vf"

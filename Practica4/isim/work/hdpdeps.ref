@@ -1,0 +1,31 @@
+V3 12
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/p4.vhw" 2018/04/08.19:11:04 I.31
+EN work/p4 1523232688 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/p4.vhw" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857 PB ieee/STD_LOGIC_TEXTIO 1147840859 \
+      PB std/textio 1147840824
+AR work/p4/testbench_arch 1523232689 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/p4.vhw" \
+      EN work/p4 1523232688 CP pr4         PB ieee/STD_LOGIC_TEXTIO 1147840859
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/pr4.vhd" 2018/04/08.19:38:06 I.31
+EN work/pr4 1523234377 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/pr4.vhd" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857
+AR work/pr4/Behavioral 1523234378 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/pr4.vhd" \
+      EN work/pr4 1523234377
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/pr4.ant" 2018/04/08.19:08:48 I.31
+AR work/pr4/testbench_arch -1 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/pr4.ant" \
+      EN work/pr4 0 CP pr4        PB ieee/STD_LOGIC_TEXTIO 1147840859
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/practica4.vhw" 2018/04/08.19:15:07 I.31
+EN work/practica4 1523234379 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/practica4.vhw" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857 PB ieee/STD_LOGIC_TEXTIO 1147840859 \
+      PB std/textio 1147840824
+AR work/practica4/testbench_arch 1523234380 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica4/practica4.vhw" \
+      EN work/practica4 1523234379 CP pr4  PB ieee/STD_LOGIC_TEXTIO 1147840859

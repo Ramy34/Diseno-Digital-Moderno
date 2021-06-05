@@ -1,0 +1,7 @@
+sch2verilog -intstyle ise -family spartan3   -w "C:/practica1/practica1/PracCompu.sch" PracCompu.vf
+xst -ise "C:/practica1/practica1/practica1.ise" -intstyle ise -ifn PracCompu.xst -ofn PracCompu.syr
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Alumno/Downloads/practica1/PracCompu.sch" PracCompu.vf
+sch2verilog -intstyle ise -family acr2   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/PracCompu.sch" PracCompu.vf
+sch2verilog -intstyle ise -family acr2   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/PracCompu.sch" PracCompu.vf
+sch2verilog -intstyle ise -family acr2   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/PracCompu.sch" PracCompu.vf
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/PracCompu.sch" PracCompu.vf

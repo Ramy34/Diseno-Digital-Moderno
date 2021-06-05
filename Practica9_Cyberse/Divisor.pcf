@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map I.31 on Mon Apr 30 16:04:10 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Divisor" LOCATE = SITE "P13" LEVEL 1;
+COMP "Reloj" LOCATE = SITE "T9" LEVEL 1;
+NET "Reloj_BUFGP/IBUFG" BEL "Reloj_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;

@@ -1,0 +1,5 @@
+[Inputs]
+segundo
+[Outputs]
+=Q[5:0]=
+[BiDir]

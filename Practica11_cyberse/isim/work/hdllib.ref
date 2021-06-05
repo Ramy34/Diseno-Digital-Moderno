@@ -1,0 +1,6 @@
+AR prac11cont testbench_arch "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Prac11cont.vhw" sub00/vhpl05 1526939054
+EN prac11cont NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Prac11cont.vhw" sub00/vhpl04 1526939053
+EN divisor NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/../Practica9_Cyberse/Divisor.vhd" sub00/vhpl00 1526938996
+AR divisor behavioral "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/../Practica9_Cyberse/Divisor.vhd" sub00/vhpl01 1526938997
+EN contador NULL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/contador.vhd" sub00/vhpl02 1526939051
+AR contador behavioral "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/contador.vhd" sub00/vhpl03 1526939052

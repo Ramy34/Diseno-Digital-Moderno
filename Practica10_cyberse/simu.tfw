@@ -1,0 +1,78 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.2i
+//  \   \         Application : ISE
+//  /   /         Filename : simu.tfw
+// /___/   /\     Timestamp : Mon May 14 16:15:16 2018
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: simu
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module simu;
+    reg A = 1'b0;
+    wire [6:0] Salidas;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 0;
+
+    initial    // Clock process for A
+    begin
+        #OFFSET;
+        forever
+        begin
+            A = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) A = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    Practica10 UUT (
+        .A(A),
+        .Salidas(Salidas));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin  // Open the results file...
+        TX_FILE = $fopen("results.txt");
+        #10200 // Final time:  10200 ns
+        if (TX_ERROR == 0) begin
+            $display("No errors or warnings.");
+            $fdisplay(TX_FILE, "No errors or warnings.");
+        end else begin
+            $display("%d errors found in simulation.", TX_ERROR);
+            $fdisplay(TX_FILE, "%d errors found in simulation.", TX_ERROR);
+        end
+        $fclose(TX_FILE);
+        $stop;
+    end
+
+    initial begin
+    end
+
+    task CHECK_Salidas;
+        input [6:0] NEXT_Salidas;
+
+        #0 begin
+            if (NEXT_Salidas !== Salidas) begin
+                $display("Error at time=%dns Salidas=%b, expected=%b", $time, Salidas, NEXT_Salidas);
+                $fdisplay(TX_FILE, "Error at time=%dns Salidas=%b, expected=%b", $time, Salidas, NEXT_Salidas);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+
+endmodule
+

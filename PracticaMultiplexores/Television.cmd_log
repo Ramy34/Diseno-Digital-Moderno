@@ -1,0 +1,1 @@
+sch2verilog -intstyle ise -family acr2   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/PracticaMultiplexores/Television.sch" Television.vf

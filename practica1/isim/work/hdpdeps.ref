@@ -1,0 +1,15 @@
+V3 16
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/PracCompu.vf" 2018/04/15.13:00:40 I.31
+MO work/PracCompu \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/PracCompu.vf" \
+      MI AND2           MI INV            MI NAND2          MI NOR2           MI OR2 \
+      MI XNOR2          MI XOR2
+FL C:/Users/Alumno/Downloads/practica1/simulatzion.ant 2018/02/26.16:34:36 I.31
+MO work/simulatzion     FL C:/Users/Alumno/Downloads/practica1/simulatzion.ant \
+      MI PracCompu
+FL $XILINX/verilog/src/glbl.v 2006/05/17.13:09:08 I.31
+MO work/glbl            FL $XILINX/verilog/src/glbl.v
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/practica1.tfw" 2018/04/15.12:45:32 I.31
+MO work/practica1 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica1/practica1.tfw" \
+      MI PracCompu

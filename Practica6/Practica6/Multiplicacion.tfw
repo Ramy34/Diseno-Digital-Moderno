@@ -1,0 +1,402 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.2i
+//  \   \         Application : ISE
+//  /   /         Filename : Multiplicacion.tfw
+// /___/   /\     Timestamp : Sun May 20 14:46:47 2018
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: Multiplicacion
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module Multiplicacion;
+    reg A0 = 1'b1;
+    reg A1 = 1'b1;
+    reg A2 = 1'b1;
+    reg B0 = 1'b0;
+    reg B1 = 1'b0;
+    reg B2 = 1'b0;
+    wire P0;
+    wire P1;
+    wire P2;
+    wire P3;
+    wire P4;
+    wire P5;
+
+
+    practica6 UUT (
+        .A0(A0),
+        .A1(A1),
+        .A2(A2),
+        .B0(B0),
+        .B1(B1),
+        .B2(B2),
+        .P0(P0),
+        .P1(P1),
+        .P2(P2),
+        .P3(P3),
+        .P4(P4),
+        .P5(P5));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin  // Open the results file...
+        TX_FILE = $fopen("results.txt");
+        #10000 // Final time:  10000 ns
+        if (TX_ERROR == 0) begin
+            $display("No errors or warnings.");
+            $fdisplay(TX_FILE, "No errors or warnings.");
+        end else begin
+            $display("%d errors found in simulation.", TX_ERROR);
+            $fdisplay(TX_FILE, "%d errors found in simulation.", TX_ERROR);
+        end
+        $fclose(TX_FILE);
+        $stop;
+    end
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  200ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  300ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  500ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  600ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  700ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  800ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  900ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1000ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1100ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1200ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1300ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1400ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1500ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1600ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  1700ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1800ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1900ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2000ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2100ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2200ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2300ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2400ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  2500ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2600ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2700ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2800ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2900ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  3000ns
+        #100;
+        B0 = 1'b0;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  3100ns
+        #100;
+        B0 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  3200ns
+        #100;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  3400ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  3600ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  3800ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  4000ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  4200ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  4400ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  4600ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  4800ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  5000ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  5200ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  5400ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  5600ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  5800ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  6000ns
+        #200;
+        B1 = 1'b0;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  6200ns
+        #200;
+        B1 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  6400ns
+        #200;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  6800ns
+        #400;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  7200ns
+        #400;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  7600ns
+        #400;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  8000ns
+        #400;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  8400ns
+        #400;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  8800ns
+        #400;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  9200ns
+        #400;
+        B2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  9600ns
+        #400;
+        B2 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  10000ns
+        #400;
+        A0 = 1'b0;
+        B2 = 1'b1;
+    end
+
+    task CHECK_P0;
+        input NEXT_P0;
+
+        #0 begin
+            if (NEXT_P0 !== P0) begin
+                $display("Error at time=%dns P0=%b, expected=%b", $time, P0, NEXT_P0);
+                $fdisplay(TX_FILE, "Error at time=%dns P0=%b, expected=%b", $time, P0, NEXT_P0);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_P1;
+        input NEXT_P1;
+
+        #0 begin
+            if (NEXT_P1 !== P1) begin
+                $display("Error at time=%dns P1=%b, expected=%b", $time, P1, NEXT_P1);
+                $fdisplay(TX_FILE, "Error at time=%dns P1=%b, expected=%b", $time, P1, NEXT_P1);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_P2;
+        input NEXT_P2;
+
+        #0 begin
+            if (NEXT_P2 !== P2) begin
+                $display("Error at time=%dns P2=%b, expected=%b", $time, P2, NEXT_P2);
+                $fdisplay(TX_FILE, "Error at time=%dns P2=%b, expected=%b", $time, P2, NEXT_P2);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_P3;
+        input NEXT_P3;
+
+        #0 begin
+            if (NEXT_P3 !== P3) begin
+                $display("Error at time=%dns P3=%b, expected=%b", $time, P3, NEXT_P3);
+                $fdisplay(TX_FILE, "Error at time=%dns P3=%b, expected=%b", $time, P3, NEXT_P3);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_P4;
+        input NEXT_P4;
+
+        #0 begin
+            if (NEXT_P4 !== P4) begin
+                $display("Error at time=%dns P4=%b, expected=%b", $time, P4, NEXT_P4);
+                $fdisplay(TX_FILE, "Error at time=%dns P4=%b, expected=%b", $time, P4, NEXT_P4);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+    task CHECK_P5;
+        input NEXT_P5;
+
+        #0 begin
+            if (NEXT_P5 !== P5) begin
+                $display("Error at time=%dns P5=%b, expected=%b", $time, P5, NEXT_P5);
+                $fdisplay(TX_FILE, "Error at time=%dns P5=%b, expected=%b", $time, P5, NEXT_P5);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+
+endmodule
+

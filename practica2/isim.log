@@ -1,0 +1,32 @@
+ command line:
+   ./pac2_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50980
+
+Sun May 20 10:12:06 2018
+
+Total Line Count = 164
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 109.941 Meg. 
+
+ Total signals 58
+ Total nets 24
+ Total signal drivers 19
+ Total blocks 17
+ Total primitive blocks 15
+ Total processes 23
+ntrace select -o on -n /pac2/x1 
+ntrace select -o on -n /pac2/X2 
+ntrace select -o on -n /pac2/a 
+ntrace select -o on -n /pac2/b 
+ntrace select -o on -n /pac2/c 
+ntrace select -o on -n /pac2/d 
+ntrace select -o on -n /pac2/TX_FILE 
+ntrace select -o on -n /pac2/TX_ERROR 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

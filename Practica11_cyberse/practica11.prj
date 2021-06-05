@@ -1,0 +1,3 @@
+vhdl work "contador.vhd"
+vhdl work "Divisor.vhd"
+verilog work "practica11.vf"

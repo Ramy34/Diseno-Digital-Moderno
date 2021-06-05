@@ -1,0 +1,12 @@
+select figure at 2718 620 11 -branches -sn=1
+select all in 2716 617 2729 888 -branches -enclosed -noattrwin -sn=1
+select figure at 1928 1446 21 -branches -sn=1
+select all in 1892 1142 1923 1440 -branches -enclosed -noattrwin -sn=1
+select figure at 4470 670 21 -branches -sn=1
+select figure at 4475 665 21 -branches -sn=1
+select figure at 1462 2604 21 -branches -sn=1
+select all in 157 15 1457 2599 -branches -enclosed -noattrwin -sn=1
+select figure at 1624 2562 21 -branches -sn=1
+select all in 131 114 1619 2557 -branches -enclosed -noattrwin -sn=1
+select figure at -666 1928 21 -branches -sn=1
+select figure at -671 1922 21 -branches -sn=1

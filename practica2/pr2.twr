@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise
+C:/Users/Alumno/Downloads/practica2/practica2.ise -intstyle ise -e 3 -l 3 -s 5
+-xml pr2 pr2.ncd -o pr2.twr pr2.pcf -ucf pr2.ucf
+
+Design file:              pr2.ncd
+Physical constraint file: pr2.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.38 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a              |x1             |    7.469|
+b              |X2             |    7.284|
+b              |x1             |    7.666|
+c              |X2             |    7.580|
+c              |x1             |    7.957|
+d              |x1             |    8.310|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Feb 26 16:53:45 2018
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 159 MB
+
+
+

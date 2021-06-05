@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise G:/Laboratorio Diseno Digital/prac3/prac3.ise
+-intstyle ise -e 3 -l 3 -s 5 -xml prac3 prac3.ncd -o prac3.twr prac3.pcf -ucf
+prac3.ucf
+
+Design file:              prac3.ncd
+Physical constraint file: prac3.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.38 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |F3             |    7.916|
+A              |F4             |    8.050|
+A              |F5             |    8.104|
+B              |F2             |    7.684|
+B              |F3             |    8.387|
+B              |F4             |    8.819|
+B              |F5             |    8.939|
+C              |F0             |    6.585|
+C              |F2             |    7.733|
+C              |F3             |    8.400|
+C              |F4             |    8.848|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Mar 09 16:10:32 2018
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 159 MB
+
+
+

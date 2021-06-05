@@ -1,0 +1,7 @@
+xst -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -intstyle ise -ifn Divisor.xst -ofn Divisor.syr
+ngdbuild -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -intstyle ise -dd _ngo -nt timestamp -uc "Divisor.ucf" -p xc3s200-ft256-5 "Divisor.ngc" Divisor.ngd
+map -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o Divisor_map.ncd Divisor.ngd Divisor.pcf
+par -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -w -intstyle ise -ol std -t 1 Divisor_map.ncd Divisor.ncd Divisor.pcf
+trce -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -intstyle ise -e 3 -l 3 -s 5 -xml Divisor Divisor.ncd -o Divisor.twr Divisor.pcf -ucf Divisor.ucf
+bitgen -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -intstyle ise -f Divisor.ut Divisor.ncd
+bitgen -ise "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica9_Cyberse/Practica9_Cyberse.ise" -intstyle ise -f Divisor.ut Divisor.ncd

@@ -1,0 +1,391 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.51 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.51 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: practica11.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "practica11.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "practica11"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : practica11
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : practica11.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3215 - Unit work/Divisor is now defined in a different file: was C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/../Practica9_Cyberse/Divisor.vhd, now is C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Divisor.vhd
+WARNING:HDLParsers:3215 - Unit work/Divisor/Behavioral is now defined in a different file: was C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/../Practica9_Cyberse/Divisor.vhd, now is C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Divisor.vhd
+Compiling vhdl file "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Divisor.vhd" in Library work.
+Entity <divisor> compiled.
+Entity <divisor> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/contador.vhd" in Library work.
+Architecture behavioral of Entity contador is up to date.
+Compiling verilog file "practica11.vf" in library work
+Module <practica11> compiled
+No errors in compilation
+Analysis of file <"practica11.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <practica11> in library <work>.
+
+Analyzing hierarchy for entity <contador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divisor> in library <work> (architecture <behavioral>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <practica11>.
+Module <practica11> is correct for synthesis.
+ 
+Analyzing Entity <contador> in library <work> (Architecture <behavioral>).
+Entity <contador> analyzed. Unit <contador> generated.
+
+Analyzing Entity <divisor> in library <work> (Architecture <behavioral>).
+Entity <divisor> analyzed. Unit <divisor> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <contador>.
+    Related source file is "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/contador.vhd".
+    Found 6-bit up counter for signal <tmp>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador> synthesized.
+
+
+Synthesizing Unit <divisor>.
+    Related source file is "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica11_cyberse/Divisor.vhd".
+    Found 28-bit comparator greater for signal <$cmp_gt0000> created at line 48.
+    Found 28-bit up counter for signal <cuenta>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <divisor> synthesized.
+
+
+Synthesizing Unit <practica11>.
+    Related source file is "practica11.vf".
+Unit <practica11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 28-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+# Comparators                                          : 1
+ 28-bit comparator greater                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 28-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 1
+ 28-bit comparator greater                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <practica11> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block practica11, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : practica11.ngr
+Top Level Output File Name         : practica11
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 129
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 29
+#      LUT2                        : 4
+#      LUT3                        : 4
+#      LUT3_L                      : 1
+#      LUT4                        : 16
+#      LUT4_L                      : 1
+#      MUXCY                       : 39
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 27
+# FlipFlops/Latches                : 34
+#      FDR                         : 33
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      30  out of   1920     1%  
+ Number of Slice Flip Flops:            34  out of   3840     0%  
+ Number of 4 input LUTs:                60  out of   3840     1%  
+ Number of IOs:                          7
+ Number of bonded IOBs:                  7  out of    173     4%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                          | Clock buffer(FF name)  | Load  |
+----------------------------------------------------------------------+------------------------+-------+
+XLXI_2/Mcompar__cmp_gt0000_cy<11>(XLXI_2/Mcompar__cmp_gt0000_cy<11>:O)| NONE(*)(XLXI_1/tmp_3)  | 6     |
+Reloj                                                                 | BUFGP                  | 28    |
+----------------------------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.711ns (Maximum Frequency: 148.999MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.490ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/Mcompar__cmp_gt0000_cy<11>'
+  Clock period: 4.689ns (frequency: 213.281MHz)
+  Total number of paths / destination ports: 61 / 12
+-------------------------------------------------------------------------
+Delay:               4.689ns (Levels of Logic = 2)
+  Source:            XLXI_1/tmp_2 (FF)
+  Destination:       XLXI_1/tmp_2 (FF)
+  Source Clock:      XLXI_2/Mcompar__cmp_gt0000_cy<11> falling
+  Destination Clock: XLXI_2/Mcompar__cmp_gt0000_cy<11> falling
+
+  Data Path: XLXI_1/tmp_2 to XLXI_1/tmp_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              7   0.626   1.201  XLXI_1/tmp_2 (XLXI_1/tmp_2)
+     LUT3_L:I0->LO         1   0.479   0.159  XLXI_1/_cmp_eq00001_SW0 (N151)
+     LUT4:I2->O            6   0.479   0.853  XLXI_1/_cmp_eq00001 (XLXI_1/_cmp_eq0000)
+     FDS:S                     0.892          XLXI_1/tmp_2
+    ----------------------------------------
+    Total                      4.689ns (2.476ns logic, 2.213ns route)
+                                       (52.8% logic, 47.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Reloj'
+  Clock period: 6.711ns (frequency: 148.999MHz)
+  Total number of paths / destination ports: 1190 / 56
+-------------------------------------------------------------------------
+Delay:               6.711ns (Levels of Logic = 3)
+  Source:            XLXI_2/cuenta_8 (FF)
+  Destination:       XLXI_2/cuenta_0 (FF)
+  Source Clock:      Reloj rising
+  Destination Clock: Reloj rising
+
+  Data Path: XLXI_2/cuenta_8 to XLXI_2/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.626   1.066  XLXI_2/cuenta_8 (XLXI_2/cuenta_8)
+     LUT4:I0->O            1   0.479   0.976  XLXI_2/_cmp_eq000091 (N101)
+     LUT4_L:I0->LO         1   0.479   0.159  XLXI_2/_cmp_eq0000541 (N61)
+     LUT4:I2->O           28   0.479   1.556  XLXI_2/_cmp_eq0000162 (XLXI_2/_cmp_eq0000)
+     FDR:R                     0.892          XLXI_2/cuenta_0
+    ----------------------------------------
+    Total                      6.711ns (2.955ns logic, 3.756ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/Mcompar__cmp_gt0000_cy<11>'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              6.490ns (Levels of Logic = 1)
+  Source:            XLXI_1/tmp_0 (FF)
+  Destination:       Q<0> (PAD)
+  Source Clock:      XLXI_2/Mcompar__cmp_gt0000_cy<11> falling
+
+  Data Path: XLXI_1/tmp_0 to Q<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.626   0.955  XLXI_1/tmp_0 (XLXI_1/tmp_0)
+     OBUF:I->O                 4.909          Q_0_OBUF (Q<0>)
+    ----------------------------------------
+    Total                      6.490ns (5.535ns logic, 0.955ns route)
+                                       (85.3% logic, 14.7% route)
+
+=========================================================================
+CPU : 8.20 / 8.78 s | Elapsed : 9.00 / 9.00 s
+ 
+--> 
+
+Total memory usage is 267144 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

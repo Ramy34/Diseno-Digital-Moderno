@@ -1,0 +1,18 @@
+V3 7
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Prac7.vhw" 2018/04/22.11:54:06 I.31
+EN work/Prac7 1524416058 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Prac7.vhw" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857 PB ieee/STD_LOGIC_TEXTIO 1147840859 \
+      PB std/textio 1147840824
+AR work/Prac7/testbench_arch 1524416059 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Prac7.vhw" \
+      EN work/Prac7 1524416058 CP Pract7   PB ieee/STD_LOGIC_TEXTIO 1147840859
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Pract7.vhd" 2018/04/22.11:40:45 I.31
+EN work/Pract7 1524416056 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Pract7.vhd" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857
+AR work/Pract7/Behavioral 1524416057 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica7/Pract7.vhd" \
+      EN work/Pract7 1524416056

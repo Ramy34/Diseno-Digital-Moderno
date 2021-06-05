@@ -1,0 +1,9 @@
+select figure at -745 1749 26 -branches -sn=1
+select figure at -752 1743 26 -branches -sn=1
+select figure at -863 1318 26 -branches -sn=1
+select figure at -870 1311 26 -branches -sn=1
+select figure at -863 1318 26 -branches -sn=1
+select figure at -1497 1207 26 -branches -sn=1
+select figure at -1504 1200 26 -branches -sn=1
+add instance acc1 1136 592 R0 -sn=1
+add instance acc1 1104 1392 R0 -sn=1

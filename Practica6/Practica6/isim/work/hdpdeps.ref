@@ -1,0 +1,31 @@
+V3 18
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/Multiplicacion.tfw" 2018/05/20.14:46:47 I.31
+MO work/Multiplicacion \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/Multiplicacion.tfw" \
+      MI practica6
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/ha.vhd" 2018/04/09.15:48:17 I.31
+EN work/ha 1523309026 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/ha.vhd" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857
+AR work/ha/Behavioral 1523309027 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/ha.vhd" \
+      EN work/ha 1523309026
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/practica6.vf" 2018/04/09.16:43:05 I.31
+MO work/practica6 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/practica6.vf" \
+      MI AND2           MI fa             MI ha
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/PR6.tfw" 2018/05/20.14:48:19 I.31
+MO work/PR6 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/PR6.tfw" \
+      MI practica6
+FL $XILINX/verilog/src/glbl.v 2006/05/17.13:09:08 I.31
+MO work/glbl            FL $XILINX/verilog/src/glbl.v
+FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/fa.vhd" 2018/04/09.15:52:43 I.31
+EN work/fa 1523309024 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/fa.vhd" \
+      PB ieee/std_logic_1164 1147840849 PB ieee/std_logic_arith 1147840851 \
+      PB ieee/STD_LOGIC_UNSIGNED 1147840857
+AR work/fa/Behavioral 1523309025 \
+      FL "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/Practica6/Practica6/fa.vhd" \
+      EN work/fa 1523309024

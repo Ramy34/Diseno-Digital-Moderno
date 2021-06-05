@@ -1,0 +1,36 @@
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Alumno/Downloads/practica2/pr2.sch" pr2.vf
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Alumno/Downloads/practica2/pr2.sch" pr2.vf
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Alumno/Downloads/practica2/pr2.sch" pr2.vf
+xst -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -ifn pr2.xst -ofn pr2.syr
+ngdbuild -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "pr2.ngc" pr2.ngd
+map -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o pr2_map.ncd pr2.ngd pr2.pcf
+par -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -w -intstyle ise -ol std -t 1 pr2_map.ncd pr2.ncd pr2.pcf
+trce -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pr2 pr2.ncd -o pr2.twr pr2.pcf
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Alumno/Downloads/practica2/pr2.sch" pr2.vf
+xst -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -ifn pr2.xst -ofn pr2.syr
+ngdbuild -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "pr2.ngc" pr2.ngd
+map -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o pr2_map.ncd pr2.ngd pr2.pcf
+par -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -w -intstyle ise -ol std -t 1 pr2_map.ncd pr2.ncd pr2.pcf
+trce -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pr2 pr2.ncd -o pr2.twr pr2.pcf
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Alumno/Downloads/practica2/pr2.sch" pr2.vf
+xst -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -ifn pr2.xst -ofn pr2.syr
+ngdbuild -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "pr2.ngc" pr2.ngd
+map -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o pr2_map.ncd pr2.ngd pr2.pcf
+par -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -w -intstyle ise -ol std -t 1 pr2_map.ncd pr2.ncd pr2.pcf
+trce -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pr2 pr2.ncd -o pr2.twr pr2.pcf
+bitgen -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -f pr2.ut pr2.ncd
+ngdbuild -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "pr2.ucf" -p xc3s200-ft256-5 "pr2.ngc" pr2.ngd
+map -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o pr2_map.ncd pr2.ngd pr2.pcf
+par -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -w -intstyle ise -ol std -t 1 pr2_map.ncd pr2.ncd pr2.pcf
+trce -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pr2 pr2.ncd -o pr2.twr pr2.pcf -ucf pr2.ucf
+bitgen -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -f pr2.ut pr2.ncd
+bitgen -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -f pr2.ut pr2.ncd
+bitgen -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -f pr2.ut pr2.ncd
+bitgen -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -f pr2.ut pr2.ncd
+xst -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -ifn pr2.xst -ofn pr2.syr
+ngdbuild -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -dd _ngo -nt timestamp -uc "pr2.ucf" -p xc3s200-ft256-5 "pr2.ngc" pr2.ngd
+map -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o pr2_map.ncd pr2.ngd pr2.pcf
+par -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -w -intstyle ise -ol std -t 1 pr2_map.ncd pr2.ncd pr2.pcf
+trce -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -e 3 -l 3 -s 5 -xml pr2 pr2.ncd -o pr2.twr pr2.pcf -ucf pr2.ucf
+bitgen -ise "C:/Users/Alumno/Downloads/practica2/practica2.ise" -intstyle ise -f pr2.ut pr2.ncd
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/Familia/Dropbox/Escuela Ram/Ingenieria/6to semestre/Diseno Digital Moderno/Laboratorio/practica2/pr2.sch" pr2.vf

@@ -1,0 +1,5 @@
+vhdl work "ha.vhd"
+vhdl work "fa.vhd"
+verilog work "practica6.vf"
+verilog work "Multiplicacion.tfw"
+verilog work "C:/Xilinx/verilog/src/glbl.v"
